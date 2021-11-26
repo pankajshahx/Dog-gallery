@@ -4,7 +4,7 @@ import '../Header.css'
 
 function CustomSearch({breeds,breedinfo}) {
     const [breedName,setBreedName] = useState("");
-    const [imgCount,setImgCount] = useState(0);
+    const [imgCount,setImgCount] = useState("");
     
 
 
