@@ -1,0 +1,63 @@
+#Csearch{
+    display: inline-block;
+}
+.cancel{
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+.box{
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+}
+.list{
+    
+    padding: 20px;
+}
+.getImg{
+    padding: 20px;
+    text-align: center;
+
+}
+.getbtn{
+    padding: 12px;
+    width: 130px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+#inpnumber{
+    
+    padding: 12px;
+    
+}
+.dropdownlist{
+    padding: 12px;
+    width: 100%;
+    
+}
+.inpt{
+    float: right;
+    padding: 20px;
+    
+}
+.dlist{
+    display: inline-block;
+    padding: 20px;
+}
+
+.image-contains{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.child{
+    
+      padding: 20px;
+      margin: 5px;
+      width: 150px;
+      height: 130px;
+      text-align: center;
+  }

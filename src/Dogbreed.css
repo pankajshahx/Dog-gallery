@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header{
+    
+    background-color: skyblue;
+    padding: 20px;
+    text-align: center;
+    
+    
+  }
+  #search{
+      background-color: rgb(19, 122, 19);
+      color: white;
+      padding: 12px;
+      float: right;
+      border: none;
+  }
+  #title{
+    display: inline-block;
+    
+  }
+  #searchbreed{
+    text-align: center;
+    padding: 20px;
+  }
+  .searchbar{
+    background-color: rgb(194, 192, 192);
+    padding: 15px;
+    width: 50%;
+    border: none;
+  }
+  .image-contains{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: 60px;
+    
+    
+  }
+  .child{
+      padding: 20px;
+      margin: 5px;
+      width: 150px;
+      height: 130px;
+      text-align: center;
+  }
+  
+  

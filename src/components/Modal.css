@@ -1,0 +1,19 @@
+
+
+  .heading{
+      display: inline-block; 
+  }
+  .childcontainer{
+      text-align: center;
+      
+  }
+  .close{
+      float: right;
+      height: 40px;
+      width: 40px;
+  }
+  .childcontainer{
+      padding: 20px;
+      background-color: grey;
+  }
+  
