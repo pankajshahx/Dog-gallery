@@ -5,6 +5,7 @@ import '../Header.css'
 function CustomSearch({breeds,breedinfo}) {
     const [breedName,setBreedName] = useState("");
     const [imgCount,setImgCount] = useState(0);
+    
 
 
     const handleChang=(e)=>{
@@ -18,7 +19,7 @@ function CustomSearch({breeds,breedinfo}) {
     const handleData = (e) =>{
         e.preventDefault();
         if(breedName==""){
-            alert("Enter Breed Name");
+            alert("Plz Select Breed Name");
         }else if(imgCount<1 || imgCount>30){
             alert("Plz Enter A valid numver")
         }else{
@@ -27,7 +28,8 @@ function CustomSearch({breeds,breedinfo}) {
 
             breedinfo(breedName,imgCount);
             setBreedName("");
-            setImgCount(0);
+            setImgCount("");
+            
 
         }
     }
@@ -49,7 +51,7 @@ function CustomSearch({breeds,breedinfo}) {
                     </select>
                 </div>
                     <div className="inpt">
-                        <input id="inpnumber" type="number"  onChange={inputNumber} placeholder="Number of Images" />
+                        <input id="inpnumber" type="number" value={imgCount}  onChange={inputNumber} placeholder="Number of Images" />
                     </div>
                     <div className="getImg">
                         <button className="getbtn" type="submit">Get Images</button>

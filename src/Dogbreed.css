@@ -17,6 +17,7 @@
       padding: 12px;
       float: right;
       border: none;
+      cursor: pointer;
   }
   #title{
     display: inline-block;
